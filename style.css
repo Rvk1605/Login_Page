@@ -1,0 +1,116 @@
+html,body{
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    height: 100%;
+}
+
+
+/* First Part */
+#design-part{
+    height: 100%;
+    width: 60%;
+    background-color: rgb(65, 238, 238);
+    background-size:auto;
+    background-position: center;
+    padding: 0px 100px 0px 100px;
+    color: white;
+    
+}
+.container{
+    margin-top: 150px;
+}
+.h1{
+    border-bottom: 3px solid white;
+    padding-bottom: 5px;
+}
+#btn-knowmore{
+    padding: 15px 30px 15px 30px;
+    border: 1px solid rgb(75, 72, 72);
+    border-radius: 5px ;
+    background-color: rgb(65, 238, 238);
+}
+#btn-knowmore:hover{
+    cursor: pointer;
+    border-color: black;
+}
+
+/* Second Part */
+#form-part{
+    padding: 0px 125px 0px 150px;
+    height: 100%;
+    width: 40%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.social-logo{
+    text-decoration: none;
+}
+.form-container input{
+    width: 90%;
+    font-size: 0.9rem;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    box-shadow:0.5px 0.5px 0.2px  black;
+}
+
+.hr-or h4{
+    padding-top: 15px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+.hr-or h4::before{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 60%;
+    z-index: -2;
+}
+.hr-or h4::after{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    right: 0;
+    top: 60%;
+    z-index: -2;
+}
+
+
+.social{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.social i{
+    padding: 30px;
+}
+.social li:hover{
+    cursor: pointer;
+}
+.login a{
+    text-decoration: none;
+    color: rgb(65, 238, 238);
+}
+#btn-signup{
+    padding: 10px 50px 10px 50px;
+    border: none;
+    border-radius: 25px;
+    color: aliceblue;
+    background-color: rgb(65, 238, 238);
+}
+#btn-signup:hover{
+    background-color: rgb(109, 241, 241);
+    cursor: pointer;
+}
+

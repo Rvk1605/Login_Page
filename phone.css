@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    height: 50%;
+}
+/* First Part */
+#design-part{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    padding: 50px;
+}
+
+/* Second Part */
+#form-part{
+    height: 100%;
+    width: 100%;
+}
